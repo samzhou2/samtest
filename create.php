@@ -21,6 +21,7 @@ if (isset($_GET['customer_name']) && $_GET['customer_name']!="")
     $response["status"] = "true";
     $response["message"] = "Customer Details";
     $response["customers"] = $customerData;
+
 }
 else
 {

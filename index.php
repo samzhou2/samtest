@@ -23,7 +23,7 @@ else
 </head>
 <body>
     <section class="congratulations">
-        <h1>Sam's Test Php Site</h1>
+        <h1>Sam's Test PHP Site</h1>
     </section>
 
     <section class="instructions">

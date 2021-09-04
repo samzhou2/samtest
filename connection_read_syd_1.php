@@ -1,5 +1,5 @@
 <?php
- $dbhost_read_syd_1 = "sam-global-db-instance-1.cfrnundnmczd.ap-southeast-2.rds.amazonaws.com";
+ $dbhost_read_syd_1 = "sam-global-db-cluster-1.cluster-custom-cfrnundnmczd.ap-southeast-2.rds.amazonaws.com";
  $dbuser_read_syd_1 = "admin";
  $dbpass_read_syd_1 = "12345678";
  $db_read_syd_1 = "samtestdb";

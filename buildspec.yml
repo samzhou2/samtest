@@ -23,6 +23,8 @@ artifacts:
     - connection.php
     - create.php
     - get.php
+    - getcount_read_syd_1.php
+    - getcount_read_syd_2.php
     - getcount_read.php
     - getcount.php
     - getcountall.php

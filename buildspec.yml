@@ -28,6 +28,10 @@ artifacts:
     - getcount_read.php
     - getcount.php
     - getcountall.php
+    - getlist_read_syd_1.php
+    - getlist_read_syd_2.php
+    - getlist_read.php
+    - getlist.php
     - index.php
     - logo_aws_reduced.gif
     - scheduled.php

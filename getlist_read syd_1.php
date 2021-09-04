@@ -14,6 +14,7 @@ try
     $query = "SELECT * FROM `customers` Order by `customer_id` Desc Limit 0 , $page_size ";
     $result = mysqli_query($con_read_syd_1,$query);
     
+    $rownumber=0;
     while($row = mysqli_fetch_array($result, MYSQLI_ASSOC))
     {
         $customerData['customer_id'] = $row['customer_id'];
@@ -22,21 +23,17 @@ try
         $customerData['customer_contact'] = $row['customer_contact'];
         $customerData['customer_address'] = $row['customer_address'];
         $customerData['country'] = $row['country'];
-        $customerList[$rownumber]=$customerData
+        $customerList[$rownumber]=$customerData;
+        $rownumber++;
     }
     
-    mysql_free_result($result);
     $response["status"] = "true";
-    $response["message"] = "Customers List"
+    $response["message"] = "Customers List";
     $response["customers"] = $customerList;
-}
-catch(Exception $ex)
-{
+} catch(Exception $ex) {
     $response["status"] = "false";
     $response["message"] = $ex->getMessage();
-}
-finally
-{
+} finally {
     echo json_encode($response); exit;
 }
  

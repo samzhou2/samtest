@@ -30,6 +30,10 @@ else
         <h2>Api list</h2>
         <ul>
             <li><a href="get.php?customer_id=1" target="_blank">Get Customer</a></li>
+            <li><a href="getlist.php" target="_blank">Get Customers List</a></li>
+            <li><a href="getlist_read.php" target="_blank">Get Customers List (Read Replica)</a></li>
+            <li><a href="getlist_read_syd_1.php" target="_blank">Get Customers List (Syd Read Replica)</a></li>
+            <li><a href="getlist_read_syd_2.php" target="_blank">Get Customers List (Syd Read Replica)</a></li>
             <li><a href="getcount.php" target="_blank">Get Customers Count In Primary Database</a></li>
             <li><a href="getcountall.php" target="_blank">Get Customers Count In Primary And Replica Databases</a></li>
             <li><a href="create.php?customer_name=new_" target="_blank">Create Customer</a></li>

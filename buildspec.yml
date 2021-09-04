@@ -28,6 +28,8 @@ artifacts:
     - getcount_read.php
     - getcount.php
     - getcountall.php
+    - getcountall_syd.php
+    - getcountall_us.php
     - getlist_read_syd_1.php
     - getlist_read_syd_2.php
     - getlist_read.php
